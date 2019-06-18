@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.publish.PublishActivity"
+    android:background="@color/orangeRed"
+    android:orientation="vertical">
+    <include layout="@layout/app_actionbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_publish_pic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_wall"/>
+    <EditText
+        android:id="@+id/et_publish_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tie_here"/>
+    </LinearLayout>
+
+</LinearLayout>

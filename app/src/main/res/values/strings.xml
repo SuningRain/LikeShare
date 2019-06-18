@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">LikeShare</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+
+    <!--*********************登录注册************************-->
+    <string name="phone_number">手机号</string>
+    <string name="password">密码</string>
+    <!--注册-->
+    <string name="move_on">继续</string>
+    <string name="fun_is_coming">好玩的就要来了</string>
+    <string name="select_nickname_please">请先输入信息注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="immediate_registration">立即注册</string>
+
+
+    <!--登录-->
+    <string name="send_verification_code">发送验证码</string>
+    <string name="load">登录</string>
+    <string name="load_description">乐在分享</string>
+
+    <!--**************************侧滑页面******************************-->
+    <!--头部-->
+    <string name="user_name">用户名</string>
+    <string name="user_signature">个性签名</string>
+    <!--导航处-->
+    <string name="publish_content">发布内容</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="my_favorites">我的点赞</string>
+    <string name="drafts">草稿箱</string>
+    <string name="user_center">个人中心</string>
+    <string name="setting">设置</string>
+    <string name="title_activity_edit_user_info">EditUserInfo</string>
+
+    <!--**************************编辑用户信息界面******************************-->
+    <string name="brief_introduction">简介:</string>
+    <string name="brief_introduction_default">世界因你的分享而有趣</string>
+    <string name="save">保存</string>
+    <string name="album">相册</string>
+    <string name="camera">相机</string>
+    <string name="crop">剪裁</string>
+
+    <!--********************************发布*******************************************-->
+    <string name="publish">发布</string>
+    <string name="tie_here">在这里贴一张图</string>
+
+    <!--***********************************草稿箱********************************************-->
+
+    <!--***********************************搜索**********************************************-->
+    <string name="search">搜索</string>
+    <string name="title_activity_follow_and_fans">FollowAndFansActivity</string>
+
+
+    <string name="follow">关注</string>
+    <string name="fans">粉丝</string>
+    <string name="like">赞</string>
+    <string name="forward">转发</string>
+    <string name="comment">评论</string>
+
+    <!--**************************************设置***********************************************-->
+    <string name="title_picture_setting">图片设置</string>
+    <string name="title_loading_big_picture">加载大图提醒</string>
+    <string name="title_auto_refresh">自动刷新内容</string>
+    <string name="title_routine_setting">常规设置</string>
+    <string name="title_automatic_check_update">自动检查更新</string>
+    <string name="title_clean_cache">清理缓存</string>
+    <string name="title_about">关于</string>
+    <string name="title_user_agreement">用户协议</string>
+    <string name="title_application_information">应用信息</string>
+    <string name="title_logout">退出登录当前账号</string>
+    <string name="key_load_big_picture">load_big_pciture</string>
+    <string name="key_auto_refresh">auto_refresh</string>
+    <string name="key_automatic_check_update">automatic_check_update</string>
+    <string name="key_about">about</string>
+    <string name="key_user_agreement">user_agreement</string>
+    <string name="key_application_information">application_information</string>
+    <string name="key_logout">logout</string>
+    <string name="summary_load_big_picture">使用手机流量下载大图时进行提醒</string>
+    <string name="summary_auto_refresh">打开应用后为您自动刷星最新的内容</string>
+    <string name="summary_automatic_check_update">启动时自动检查是否有最新的版本</string>
+    <string name="key_clean_cache">clean_cache</string>
+    <string name="summary_clean_cache">清理应用所有的图片缓存</string>
+    <string name="check_update_in_about_if_you_need">如需更新，请到关于界面手动进行检查</string>
+    <string name="send">发送</string>
+    <string name="write_comment">写评论</string>
+    <string name="zero">0</string>
+    <string name="popular_comment">热门评论</string>
+    <string name="show_all_comment">查看全部评论</string>
+    <string name="app_list">选择app</string>
+    <string name="title_activity_like">LikeActivity</string>
+</resources>

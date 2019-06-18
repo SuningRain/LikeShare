@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#FF0000</color>
+    <color name="orangeRed">#FF4500</color>
+    <color name="orangeFade">#FF8800</color>
+    <color name="white">#ffffff</color>
+    <color name="white_text">#FFF</color>
+    <color name="dark_white">#fefefe</color>
+
+    <color name="ripple_light_grey">#77bbbbbb</color>
+    <color name="ripple_dark_grey">#77555555</color>
+    <color name="black">#000</color>
+</resources>

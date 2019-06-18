@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.preference.PreferenceCategory
+        android:title="@string/title_picture_setting">
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:title="@string/title_loading_big_picture"
+            android:key="@string/key_load_big_picture"
+            android:defaultValue="true"
+            android:summary="@string/summary_load_big_picture" />
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="@string/key_auto_refresh"
+            android:title="@string/title_auto_refresh"
+            android:defaultValue="true"
+            android:summary="@string/summary_auto_refresh" />
+    </android.support.v7.preference.PreferenceCategory>
+    <android.support.v7.preference.PreferenceCategory
+        android:title="@string/title_routine_setting">
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:title="@string/title_automatic_check_update"
+            android:key="@string/key_automatic_check_update"
+            android:defaultValue="true"
+            android:summary="@string/summary_automatic_check_update" />
+        <android.support.v7.preference.Preference
+            android:key="@string/key_clean_cache"
+            android:summary="@string/summary_clean_cache"
+            android:title="@string/title_clean_cache" />
+
+        <android.support.v7.preference.Preference
+            android:key="@string/key_about"
+            android:title="@string/title_about" />
+
+        <android.support.v7.preference.Preference
+            android:key="@string/key_user_agreement"
+            android:title="@string/title_user_agreement"/>
+
+        <android.support.v7.preference.Preference
+            android:key="@string/key_application_information"
+            android:title="@string/title_application_information"/>
+
+        <android.support.v7.preference.Preference
+            android:key="@string/key_logout"
+            android:title="@string/title_logout"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>
